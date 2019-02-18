@@ -44,7 +44,7 @@ public class License {
     github.setOnAction(e -> {
       try {
         // create a URI
-        URI u=new URI("https://www.github.com/tmtanzeel");
+        URI u=new URI("https://www.github.com/tmtanzeel/jsonify");
         Desktop d=Desktop.getDesktop();
         d.browse(u);
       }
